@@ -1,0 +1,71 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+  }
+  
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    justify-content: flex-start; /* Align content at the top */
+    flex: 1;
+  }
+  
+  .hero-left h2 {
+    color: #131f19;
+    font-size: 25px;
+    font-weight: 600; 
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+     /* Add margin to separate from the navbar */
+  }
+  
+  .hero-hand-icon img {
+    height: 90px;
+    width: 90px;
+  }
+  
+  .hero-left p {
+    color: hsla(150, 24%, 10%, 0.812);
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: -1.5rem;
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    gap: 15px;
+    padding: 10px 10px; 
+    background-color: #af684c; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px; 
+  height: 40px; 
+  
+  }
+  .hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+
+  } 
+  .hero-right img{
+    height: 38rem;
+    width: 28rem;
+  }
+  
+    
+  

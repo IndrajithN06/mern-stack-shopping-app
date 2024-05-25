@@ -1,0 +1,32 @@
+/* DescriptionBox.css */
+
+.descriptionbox {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-nav-box {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    opacity: 0.5;
+  }
+  
+  .descriptionbox-description {
+    line-height: 1.6;
+  }
+  
+  

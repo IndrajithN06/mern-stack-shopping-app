@@ -1,0 +1,33 @@
+/* RelatedProducts.css */
+
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .relatedproducts h1 {
+   color: black;
+   font-size: 50px;
+   font-weight: 600;
+  }
+  
+  .relatedproducts hr {
+    width: 400px;
+    height: 6px;
+    border-radius: 20px;
+    background: black;
+  }
+  
+  .relatedproducts-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  /* Add more styles as needed for Item components */
+  

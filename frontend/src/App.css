@@ -1,0 +1,7 @@
+.content {
+ /* Set position to relative */
+ position: relative;
+    top: 96px; /* Adjust based on navbar height */
+    /* Other styling for your content */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
