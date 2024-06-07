@@ -9,7 +9,11 @@ const path=require("path");
 const cors=require("cors");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+{
+origin: ["https://mern-stack-shopping-app-frontend.vercel.app/"]
+}
+));
 
 //Database connection with MongoDB
 mongoose.connect("mongodb+srv://indrajith:SnVC2SW2mYKm6TwP@cluster0.ndl3x6p.mongodb.net/e-commerce");
