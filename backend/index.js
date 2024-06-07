@@ -10,9 +10,7 @@ const cors=require("cors");
 app.use(express.json());
 app.use(cors(
 {
-origin: ["https://mern-stack-shopping-app-frontend.vercel.app/"],
-methods: ["POST", "GET"],
-credentials: true
+origin: ["https://mern-stack-shopping-app-frontend.vercel.app/"]
 }
 ));
 
