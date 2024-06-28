@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './NewCollection.css'
 import Item from '../Item/Item'
+import config from '../../config'
 
 
 const NewCollection = () => {
   const [new_collection ,setNewCollection]=useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4000/newcollections')
+    fetch(`${config.backendUrl}/newcollections`)
       .then((resp) => resp.json())
       .then((data) => {
         setNewCollection(data);
