@@ -2,5 +2,5 @@ Welcome to my personal shopping website project built using the MERN stack (Mong
 
 ## Live Demo
 
-Check out the live demo of my ecoomerce wensite: [Shopper](https://mern-stack-shopping-app.vercel.app/)
+Check out the live demo of my ecoomerce website: [Shopper](https://mern-stack-shopping-app.vercel.app/)
 
